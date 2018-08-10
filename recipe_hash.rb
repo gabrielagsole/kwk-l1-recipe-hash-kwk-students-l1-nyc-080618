@@ -18,7 +18,7 @@ end
 
 
 def amount_of_chocolate_chips(perfect_10_recipe)
-  puts perfect_10_recipe(:mini_dark_chocolate_chips)
+  puts perfect_10_recipe[:mini_dark_chocolate_chips]
 end
 amount_of_chocolate_chips(perfect_10_recipe)
 
