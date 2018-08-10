@@ -43,7 +43,6 @@ def amounts(perfect_10_recipe)
 end
 # amounts(perfect_10_recipe)
 
-
 def number_ingredients(perfect_10_recipe)
   puts perfect_10_recipe.length
 end
