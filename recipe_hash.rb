@@ -25,7 +25,7 @@ end
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |key,value|
-  puts perfect_10_recipe "#{key} #{value}"
+  puts "#{key} #{value}"
 end 
 end
 ingredients_and_amounts(perfect_10_recipe)
