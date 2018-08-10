@@ -49,3 +49,4 @@ def number_ingredients(perfect_10_recipe)
   perfect_10_recipe.length = number 
   puts number 
 end
+number_ingredients(perfect_10_recipe)
