@@ -22,7 +22,6 @@ def amount_of_chocolate_chips(perfect_10_recipe)
 end
 # amount_of_chocolate_chips(perfect_10_recipe)
 
-
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |key,value|
   puts "#{key} #{value}"
