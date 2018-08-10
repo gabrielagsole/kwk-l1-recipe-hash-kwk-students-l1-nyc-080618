@@ -14,34 +14,34 @@ perfect_10_recipe = {
 def recipe_ingredients(perfect_10_recipe)
   return perfect_10_recipe 
 end
-# recipe_ingredients(perfect_10_recipe)
+recipe_ingredients(perfect_10_recipe)
 
 
 def amount_of_chocolate_chips(perfect_10_recipe)
   puts perfect_10_recipe[:mini_dark_chocolate_chips]
 end
-# amount_of_chocolate_chips(perfect_10_recipe)
+amount_of_chocolate_chips(perfect_10_recipe)
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |key,value|
   puts "#{key} #{value}"
 end 
 end
-# ingredients_and_amounts(perfect_10_recipe)
+ingredients_and_amounts(perfect_10_recipe)
 
 def ingredients(perfect_10_recipe)
   perfect_10_recipe.each_key do |key| 
     puts "#{key}"
   end 
 end
-# ingredients(perfect_10_recipe)
+ingredients(perfect_10_recipe)
 
 def amounts(perfect_10_recipe)
   perfect_10_recipe.each_value do |value|
     puts "#{value}"
   end 
 end
-# amounts(perfect_10_recipe)
+amounts(perfect_10_recipe)
 
 def number_ingredients(perfect_10_recipe)
   puts perfect_10_recipe.length
